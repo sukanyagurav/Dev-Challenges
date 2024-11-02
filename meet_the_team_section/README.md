@@ -9,7 +9,7 @@
 I built a "Meet the Team" section for a website as part of a design challenge. The layout features five images, each representing a team member along with their name and job title. My goal with this project is to practice using grid layout and positioning techniques, specifically position: absolute and position: relative, to create a responsive and visually appealing design.
 
 ### Meet the team section Desktop View     
-<img src="./public/desktop preview.png" width="100%" /> 
+<img src="./public/preview.jpg" width="100%" /> 
 
 <div align="center">
     <h2> Tech stack used</h2>
