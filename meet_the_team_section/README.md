@@ -3,7 +3,7 @@
 ## Welcome! 👋
 
 - [GitHub Url](https://github.com/sukanyagurav/Dev-Challenges/tree/main/meet_the_team_section)
-- [Netlify](https://galleria5867.netlify.app/)
+- [Netlify](https://meetthebrain5867.netlify.app/)
 
 ## Overview
 I built a "Meet the Team" section for a website as part of a design challenge. The layout features five images, each representing a team member along with their name and job title. My goal with this project is to practice using grid layout and positioning techniques, specifically position: absolute and position: relative, to create a responsive and visually appealing design.
