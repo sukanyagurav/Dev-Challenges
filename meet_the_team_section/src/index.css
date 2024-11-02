@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.bg-design::after{
+  background-image: url('/public/Background_decor.svg');
+  background-repeat: no-repeat;
+  background-position: 0 20px;
+  background-size: contain;
+  position: absolute;
+  content:"";
+  width: 35%;
+  height:70vh;
+  top: -30px;
+  left: 0;
+
+}
+a:hover img{
+  filter: brightness(0) saturate(100%) invert(46%) sepia(63%) saturate(4342%) hue-rotate(337deg) brightness(100%) contrast(89%);
+  transform: rotate(90deg);
+}
+@media (min-width:500px) and (max-width:990px) {
+  .bg-design::after{
+    height: 52vh;
+  }
+}
+.card:hover picture::after {
+  transform: scale(1);
+}
+.card:hover picture img {
+  @apply drop-shadow-2xl scale-[1.1];
+}
+.card h4::after{
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 1.5px;
+  left:0;
+  bottom: -4px;
+  background-color: rgb(224, 74, 74);
+  transition: all 0.3s ease-in-out;
+  border-radius: 100px;
+}
+
+.card:hover h4::after{
+  width: 50px;
+}
+
+picture::after {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  content: '';
+  top: 15%;
+  left: 22%;
+  background-color: rgba(255, 217, 0, 0.778);
+  z-index: -1;
+  transform-origin: center;
+  transform: scale(0);
+  transition: all 0.3s ease-in-out;
+}
+
