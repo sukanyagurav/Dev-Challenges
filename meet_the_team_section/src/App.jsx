@@ -14,7 +14,7 @@ function App() {
             of digital art.
           </p>
         </div>
-        <div className="w-full relative min-h-[300px]  bg-[#C1B6F8] lg:min-h-full flex items-end card overflow-hidden">
+        <div className="w-full relative h-[300px]  bg-[#C1B6F8] lg:min-h-full flex items-end card overflow-hidden">
           <picture className="relative inline-block z-30">
             <source
               srcset="/person_1.png"
@@ -25,7 +25,7 @@ function App() {
             <img
               src="/person_1@2x.png"
               alt=""
-              className="brightness-90 md:max-w-[300px] relative z-20 transition-all duration-300 ease-in-out"
+              className="brightness-90 md:max-w-[310px] relative z-20 transition-all duration-300 ease-in-out"
             />
           </picture>
           <div className="absolute bottom-5 left-5 text-[#FFFEFE] z-50">
@@ -33,7 +33,7 @@ function App() {
             <h4 className="text-md mt-2">Software Engineer</h4>
           </div>
         </div>
-        <div className="w-full relative min-h-[300px]  bg-[#EDACD2] lg:min-h-full flex items-end card overflow-hidden">
+        <div className="w-full relative h-[300px]  bg-[#EDACD2] lg:min-h-full flex items-end card overflow-hidden">
           <picture className="relative inline-block z-30">
             <source
               srcset="/person_2.png"
@@ -44,7 +44,7 @@ function App() {
             <img
               src="/person_2@2x.png"
               alt=""
-             className="brightness-90 md:max-w-[300px] relative z-20 transition-all duration-300 ease-in-out"
+             className="brightness-90 max-w-[300px] relative z-20 transition-all duration-300 ease-in-out"
             />
           </picture>
           <div className="absolute bottom-5 left-5 text-[#FFFEFE] z-50">
@@ -52,7 +52,7 @@ function App() {
             <h4 className="text-md mt-2">Business Development Manager</h4>
           </div>
         </div>
-        <div className="w-full relative min-h-[300px]  bg-[#9DC4F8] lg:min-h-full flex items-end card overflow-hidden">
+        <div className="w-full relative h-[300px]  bg-[#9DC4F8] lg:min-h-full flex items-end card overflow-hidden">
           <picture className="relative inline-block z-30">
             <source
               srcset="/person_3.png"
@@ -63,7 +63,7 @@ function App() {
             <img
               src="/person_3@2x.png"
               alt=""
-              className="brightness-90 md:max-w-[300px] relative z-20 transition-all duration-300 ease-in-out"
+              className="brightness-90 max-w-[300px] relative z-20 transition-all duration-300 ease-in-out"
             />
           </picture>
           <div className="absolute bottom-5 left-5 text-[#FFFEFE]  z-50">
@@ -71,7 +71,7 @@ function App() {
             <h4 className="text-md mt-2">Business Development Manager</h4>
           </div>
         </div>
-        <div className="w-full relative min-h-[288px]   bg-[#F8D8B0] lg:min-h-full flex items-end card overflow-hidden">
+        <div className="w-full relative h-[300px]   bg-[#F8D8B0] lg:min-h-full flex items-end card overflow-hidden">
           <picture className="relative inline-block z-30">
             <source
               srcset="/person_4.png"
@@ -82,7 +82,7 @@ function App() {
             <img
               src="/person_4@2x.png"
               alt=""
-              className="brightness-90 md:max-w-[300px] relative z-20 transition-all duration-300 ease-in-out"
+              className="brightness-90 max-w-[300px] relative z-20 transition-all duration-300 ease-in-out"
             />
           </picture>
           <div className="absolute bottom-5 left-5 text-[#FFFEFE] z-50">
@@ -90,7 +90,7 @@ function App() {
             <h4 className="text-md mt-2">UX Designer</h4>
           </div>
         </div>
-        <div className="w-full relative min-h-[288px]   bg-[#86E7D4]  lg:min-h-full flex items-end card overflow-hidden">
+        <div className="w-full relative h-[300px]   bg-[#86E7D4]  lg:min-h-full flex items-end card overflow-hidden">
           <picture className="relative inline-block z-30">
             <source
               srcset="/person_5.png"
@@ -101,7 +101,7 @@ function App() {
             <img
               src="/person_5@2x.png"
               alt=""
-              className="brightness-90 md:max-w-[300px]  relative z-50"
+              className="brightness-90 max-w-[300px]  relative z-50"
             />
           </picture>
           <div className="absolute bottom-5 left-5 text-[#FFFEFE] z-50">
@@ -109,7 +109,7 @@ function App() {
             <h4 className="text-md mt-2">Content Creator</h4>
           </div>
         </div>
-        <div className="bg-[#F3F4F6] w-full flex items-end min-h-[304px] p-8 lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3">
+        <div className="bg-[#F3F4F6] w-full flex items-end h-[300px] p-8 lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3">
           <a href="#none" className="flex items-center gap-2 transition-all border-2 border-transparent duration-300 hover:text-red-400 hover:border-b-2 hover:border-b-red-500 ">
             See all members <img src={arrowUp} alt="" />
           </a>
