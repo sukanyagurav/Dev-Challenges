@@ -1,3 +1,6 @@
+import ContactInformation from "./components/ContactInformation"
+import ProductList from "./components/ProductList"
+import { products } from "./utilis/types"
 
 
 function App() {
@@ -5,8 +8,14 @@ function App() {
 
   return (
     <>
-     <h1 className="text-red-400">Hello</h1>
-    </>
+    <div>
+      <h1>Checkout <span>3 items</span></h1>
+    </div>
+    <main className="flex max-w-[1000px] mx-auto rounded-lg overflow-hidden">
+      <ProductList products={products} />
+      <ContactInformation/>
+    </main>
+    </> 
   )
 }
 
