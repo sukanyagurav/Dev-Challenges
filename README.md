@@ -16,7 +16,7 @@
 
 ## Projects
 
-- [Simple Article Listing](https://github.com/sukanyagurav/Dev-Challenges/tree/main/meet_the_team_section) 
+- [Simple Article Listing](https://github.com/sukanyagurav/Dev-Challenges/tree/main/simple_article_listing_dev_challenges) 
 - [Meet the team section](https://github.com/sukanyagurav/Dev-Challenges/tree/main/meet_the_team_section)
 
 
