@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Simple Article Listing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Welcome! 👋
 
-Currently, two official plugins are available:
+- [GitHub Url](https://github.com/sukanyagurav/Dev-Challenges/tree/main/meet_the_team_section)
+- [Netlify](https://simplearticles5867.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+Welcome to my project! My goal with this project is to build a solid understanding of HTML and CSS while working on a practical and visually appealing article listing.
 
-## Expanding the ESLint configuration
+### Meet the team section Desktop View
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<img src="./public/design/Desktop_1350px.jpg" width="100%" />
 
-- Configure the top-level `parserOptions` property like this:
+<div align="center">
+    <h2> Tech stack used</h2>
+</div>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+<div align="center">
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+</div>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## User stories
+
+✅ Create a responsive web page that displays a list of articles using HTML and CSS.
+
+✅ Each article should include a picture, title, and publication date.
+
+✅ Implement flexbox to create a visually appealing and responsive layout for the article listing.
+
+✅ Apply clean spacing and typography to enhance the overall design.
+
+✅ Test the web page on different devices and screen sizes to ensure responsiveness.
